@@ -58,7 +58,7 @@ function App() {
             TOWARDS A GREENER FUTURE
           </span>
           <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-6">
-            Hariyalo <span className="text-emerald-300">Rajasthan</span>
+            Hariyalo <span className="text-emerald-300"></span>
           </h1>
           <p className="text-lg md:text-xl text-emerald-50 max-w-2xl mx-auto mb-10 leading-relaxed">
             A state-wide initiative to transform Rajasthan through sustainable afforestation, ecological restoration, and community-driven climate action.
