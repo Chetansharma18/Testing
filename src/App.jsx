@@ -52,13 +52,13 @@ function App() {
       <section className="relative overflow-hidden bg-gradient-to-br from-emerald-800 to-teal-900 text-white pt-24 pb-32 px-6">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&auto=format&fit=crop&w=2813&q=80')] bg-cover bg-center opacity-20 mix-blend-overlay"></div>
         <div className="absolute inset-0 bg-gradient-to-t from-emerald-900/80 to-transparent"></div>
-        
+
         <div className="relative z-10 max-w-5xl mx-auto text-center">
           <span className="inline-block py-1 px-3 rounded-full bg-emerald-700/50 border border-emerald-500/30 text-emerald-100 text-sm font-medium tracking-wider mb-6 backdrop-blur-sm">
             TOWARDS A GREENER FUTURE
           </span>
           <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-6">
-            Haryalo <span className="text-emerald-300">Rajasthan</span>
+            Hariyalo <span className="text-emerald-300">Rajasthan</span>
           </h1>
           <p className="text-lg md:text-xl text-emerald-50 max-w-2xl mx-auto mb-10 leading-relaxed">
             A state-wide initiative to transform Rajasthan through sustainable afforestation, ecological restoration, and community-driven climate action.
@@ -92,7 +92,7 @@ function App() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {features.map((feature, index) => (
-              <FeatureCard 
+              <FeatureCard
                 key={index}
                 title={feature.title}
                 description={feature.description}
